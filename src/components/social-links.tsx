@@ -26,13 +26,6 @@ const SocialMediaLinks = () => {
       >
         <Instagram className="w-4 h-4 md:w-5 md:h-5" />
       </Link>
-      <Link
-        className="rounded-full p-1 duration-300 hover:scale-110 hover:rounded-full hover:bg-secondary-foreground hover:text-secondary hover:duration-300"
-        href="https://www.youtube.com/@quilcode"
-        target="_blank"
-      >
-        <Youtube className="w-4 h-4 md:w-5 md:h-5" />
-      </Link>
     </div>
   );
 };
