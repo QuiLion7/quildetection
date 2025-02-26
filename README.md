@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# QuiL Detection
 
-## Getting Started
+## Descrição
 
-First, run the development server:
+O **QuiL Detection** é um sistema de detecção de objetos e pessoas em tempo real, projetado para monitoramento e segurança. O sistema é capaz de identificar e gravar automaticamente quando pessoas são detectadas, proporcionando uma solução eficaz para vigilância e análise de movimento.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Funcionalidades
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Detecção em Tempo Real**: Identifica objetos e pessoas em tempo real usando modelos de aprendizado de máquina.
+- **Gravação Automática**: Grava vídeos automaticamente quando pessoas são detectadas.
+- **Configuração de Duração de Gravação**: Permite ao usuário selecionar a duração da gravação.
+- **Interface Intuitiva**: Interface de usuário amigável com controles simples para operação.
+- **Feedback Visual**: Indicadores de status para mostrar se o modelo está carregado e se a gravação está em andamento.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tecnologias Utilizadas
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Next.js**: Framework React para construção de aplicações web.
+- **TensorFlow.js**: Biblioteca para aprendizado de máquina em JavaScript.
+- **React Webcam**: Componente para capturar vídeo da webcam.
+- **Tailwind CSS**: Framework CSS para estilização rápida e responsiva.
 
-## Learn More
+## Instalação
 
-To learn more about Next.js, take a look at the following resources:
+Para instalar e executar o projeto localmente, siga os passos abaixo:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone o repositório:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   git clone https://github.com/seu-usuario/quildetection.git
+   cd quildetection
+   ```
 
-## Deploy on Vercel
+2. Instale as dependências:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+3. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Acesse o aplicativo em seu navegador em `http://localhost:3000`.
+
+## Uso
+
+1. **Inicie a Webcam**: Permita o acesso à sua webcam quando solicitado.
+2. **Ajuste as Configurações**: Selecione o volume de notificação e a duração da gravação.
+3. **Ative a Detecção**: Clique no botão para iniciar a detecção de movimento.
+4. **Visualize os Resultados**: O sistema irá detectar e gravar automaticamente quando pessoas forem identificadas.
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você deseja contribuir, siga os passos abaixo:
+
+1. Faça um fork do repositório.
+2. Crie uma nova branch para sua feature ou correção:
+   ```bash
+   git checkout -b minha-feature
+   ```
+3. Faça suas alterações e commit:
+   ```bash
+   git commit -m "Adiciona nova feature"
+   ```
+4. Envie para o repositório remoto:
+   ```bash
+   git push origin minha-feature
+   ```
+5. Abra um Pull Request.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## Contato
+
+Para mais informações, entre em contato:
+
+- **Nome**: Quilion Oliveira
+- **Email**: quilbrub@gmail.com
+- **GitHub**: [QuiLion7](https://github.com/QuiLion7)
+
+---
+
+Agradecemos por usar o QuiL Detection!
