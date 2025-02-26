@@ -247,7 +247,7 @@ export default function Home() {
 
   return (
     <div className="max-w-7xl mx-auto">
-      <section className="mb-12 text-center animate-fade-in">
+      <section className="mb-6 text-center animate-fade-in">
         <h1 className="text-4xl font-bold mb-4 bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
           Detectando Movimentos
         </h1>
