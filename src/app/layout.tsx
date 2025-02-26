@@ -13,8 +13,8 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "Detector de Movimento | QuiL Detection",
-  description: "Sistema profissional de detecção de movimento em tempo real",
+  title: "Detector de Movimento",
+  description: "Sistema  de detecção de movimento em tempo real",
   keywords: "detecção de movimento, segurança, monitoramento, IA",
 };
 
